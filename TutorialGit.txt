@@ -1,0 +1,11 @@
+git init: Inicia en carpeta main un .git
+git remote add: conectar el origin (carpeta local) con la cueneta de github
+git remote: confirmar que si esté bien
+git remote -v: ver mi origin y confimar que esté conectado con mi github
+git branch: aparecen las ramas que tengo
+git fetch: traer ramas en la nube y las pone en mi local
+git switch: cuando yo hago fetch de las ramas del remote(nube) a mi local (solo en ese caso) puedo cambiarme a una de las ramas remotas, no a mis locales
+git status: muestran los archivos en mi local que no están en la nube. En rojo lo que solo está en mi local y no en nube y en verde lo que está en la nube y mi local también
+git add (nombre carpeta): señala o selecciona los archivos especificados en el nombre (no los añade a la nube)
+git commit -m "": Agrupa lo que señalé en el add y pone un mensaje clave para acordarme lo que hice
+git push origin main: Envía a la nube y a la rama especificada lo que seleccioné y agrupé con el add y el commit
